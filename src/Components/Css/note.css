@@ -1,0 +1,26 @@
+.note{
+    min-width: 15rem;
+    min-height:14rem;
+    max-width: 25rem;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-top: 1rem;
+}
+.note header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.note h3, .note p{
+    padding: .6rem;
+}
+.note-category{
+    /* margin-top: -2rem; */
+    padding: .6rem .2rem .2rem .6rem;
+}
+.note-category span{
+    padding: .3rem;
+    background-color: rgba(128, 128, 128, 0.795);
+    color: white;
+    border-radius: 2rem;
+}

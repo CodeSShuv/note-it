@@ -1,0 +1,99 @@
+.noting {
+    position: fixed;
+    bottom: .2rem;
+    right: 1rem;
+    width: 50%;
+    max-height: 28rem;
+    background-color: white;
+    /* border: 1px solid black; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: .3rem .3rem;
+    overflow: hidden;
+
+}
+
+.hide-n-c-box {
+    display: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: rgba(223, 223, 223, 0.705); */
+    background-color: #efefef;
+    padding: .3rem;
+    color: rgb(63, 60, 60);
+}
+
+.input-with-in {
+    background-color: white;
+    width: 31rem;
+    padding: .2rem;
+    margin-left: 1rem;
+    border: 1px solid rgb(214, 214, 214);
+}
+
+.input-with-in:focus-within {
+    border: 1px solid gray;
+}
+
+.input-with-in input {
+    font-size: 1rem;
+    width: 30rem;
+}
+
+label {
+    display: inline-block;
+    padding: .5rem;
+}
+
+select {
+    /* border: ; */
+    padding: .5rem;
+    font-size: 1rem;
+    margin-left: 1rem;
+}
+
+.text {
+    padding: 1rem;
+}
+
+.text textarea {
+    border: 1px solid rgb(214, 214, 214);
+}
+
+.text textarea:focus {
+    outline: none;
+    border: 1px solid grey;
+}
+
+.add-new-note-btn {
+    margin-top: -1rem;
+    padding: .5rem .5rem .5rem 1rem;
+}
+
+.add-new-note-btn button {
+    width: 36.5rem;
+    padding: .5rem;
+    font-size: 1rem;
+}
+
+.close {
+    border: none;
+    cursor: pointer;
+}
+
+@media only screen and (width<1040px) {
+    .noting {
+        width: 90%;
+    }
+
+    .add-new-note-btn button {
+        width: 20rem;
+    }
+
+    .text textarea {
+        width: 100%;
+    }
+}

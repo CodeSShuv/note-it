@@ -1,0 +1,63 @@
+.side-bar {
+    display: inline-block;
+    width: 15rem;
+    height: 100vh;
+    position: absolute;
+    left: 0;
+    top: 4.4rem;
+    /* background-color: rebeccapurple; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    overflow: hidden;
+    margin-left: 0;
+    transition: all .5s ease-in-out;
+    z-index: 3;
+    background-color: white;
+}
+
+.hidden {
+    margin-left: -25rem;
+
+}
+
+.create-new-note {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1rem;
+}
+
+.create-new-note button {
+    padding: 1rem;
+    width: 13rem;
+    border-radius: .6rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border: none;
+}
+
+.category-list {
+    padding: .3rem;
+}
+
+.category-list p {
+    text-align: center;
+    color: rgba(0, 0, 0, 0.575);
+}
+
+.category-list-container {
+    padding: .6rem;
+    display: flex;
+    flex-flow: column;
+    gap: 1rem;
+}
+
+.category-list-container a {
+    padding: 1rem;
+    background-color: rgba(204, 204, 204, 0.473);
+    text-align: center;
+    border-radius: 1rem;
+    text-decoration: none;
+    color: black;
+
+}

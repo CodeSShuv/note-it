@@ -1,0 +1,21 @@
+.Home{
+    height: 110vh;
+    overflow: scroll;
+}
+.notes-container{
+    padding:2rem;
+    padding-top: 4.5rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.notes-container ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
